@@ -127,6 +127,62 @@ html {
 }
 
 
+  /* Stats */
+
+  .stats {
+    background: linear-gradient(90deg, var(--blue-color) 50%, #E9EFFF 0%);
+    padding-top: 64px;
+    padding-bottom: 67px;
+  }
+  .stats__flex {
+    display: flex;
+  }
+  .stats__flex_left {
+    margin-left: auto;
+    width: 50%;
+    padding-right: 90px;
+    text-align: right;
+  }
+  .stats__flex_img {
+    margin-bottom: 24px;
+  }
+  .stats__flex_left .stats__flex_img {
+    display: block;
+    margin-left: auto;
+  }
+  .stats__flex_number {
+    font-family: 'RobotoRegular';
+    font-size: 48px;
+    margin-bottom: 18px;
+  }
+  .stats__flex_left .stats__flex_number {
+    color: var(--white-color);
+  }
+  .stats__flex_right .stats__flex_number {
+    color: #5E80FF;
+  }
+  .stats__flex_text {
+    font-family: 'RobotoMedium';
+    width: 245px;
+    font-size: 18px;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    line-height: 21px;
+  }
+  .stats__flex_left .stats__flex_text {
+    color: var(--white-color);
+    margin-left: auto;
+  }
+  .stats__flex_right .stats__flex_text {
+    color: #5E80FF;
+  }
+  .stats__flex_right {
+    padding-top: 6px;
+    padding-left: 90px;
+    text-align: left;
+    width: 50%;
+  }
+
 @media screen and (max-width: 800px) {
   .container {
     max-width: 600px;
@@ -146,7 +202,48 @@ html {
   .features__btn {
     margin-right: 30px;
   }
+  .stats__flex_text {
+    width: 170px;
+  }
+  
 }
+
+@media screen and (max-width: 540px) {
+  .stats {
+    background: linear-gradient(180deg, var(--blue-color) 50%, #E9EFFF 0%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .stats__flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .stats__flex_left {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+  .stats__flex_right {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .stats__flex_left .stats__flex_text {
+    margin: 0 auto;
+  }
+  .stats__flex_right .stats__flex_text {
+    margin: 0 auto;
+  }
+  .stats__flex_img {
+    margin: 0 auto;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .container {
     max-width: 220px;
