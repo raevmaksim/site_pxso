@@ -1,0 +1,63 @@
+/* 
+      Roboto
+font-family: 'RobotoThin';
+font-family: 'RobotoLight';
+font-family: 'RobotoRegular';
+font-family: 'RobotoMedium';
+font-family: 'RobotoBold';
+font-family: 'RobotoBlack';   
+      Lato
+font-family: 'LatoBlack';
+font-family: 'LatoBold';
+font-family: 'LatoItalic';
+font-family: 'LatoRegular';
+font-family: 'LatoLight';
+font-family: 'LatoThin';
+
+*/
+
+/* Roboto */
+
+@font-face {
+  font-family: 'RobotoThin';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/Roboto-Thin.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'RobotoLight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/Roboto-Light.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Roboto-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'RobotoMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Roboto-Medium.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'RobotoBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Roboto-Bold.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'RobotoBlack';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/Roboto-Black.ttf) format(truetype);
+}
+
